@@ -1,0 +1,6 @@
+<?php
+$ruleIds = $this->getAvailableNonGuestRuleIds();
+
+if (!Mage::getSingleton('customer/session')->isLoggedIn() && sizeof($ruleIds) > 0): ?>
+    <div id="vs7_amastypromoguest-notice">PLEASE SIGN IN TO RECEIVE YOUR <font color="#E648A1"><a href="<?php echo Mage::getUrl('customer/account/login');?>">FREE GIFT</a></font>!</div>
+<?php endif ?>

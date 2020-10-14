@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>vs7_amastypromoguest/vs7_amastypromoguest.css</name></action>
+        </reference>
+    </default>
+    <checkout_onepage_index>
+        <reference name="ampromo.onepage.review.before">
+            <block type="vs7_amastypromoguest/notice" name="vs7_amastypromoguest.notice" template="vs7_amastypromoguest/notice.phtml" />
+        </reference>
+    </checkout_onepage_index>
+    <checkout_cart_index>
+        <reference name="checkout.cart.form.before">
+            <block type="vs7_amastypromoguest/notice" name="vs7_amastypromoguest.notice" template="vs7_amastypromoguest/notice.phtml" />
+        </reference>
+    </checkout_cart_index>
+</layout>

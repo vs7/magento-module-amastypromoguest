@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VS7_AmastyPromoGuest>
+            <version>0.1.0</version>
+        </VS7_AmastyPromoGuest>
+    </modules>
+    <global>
+        <blocks>
+            <vs7_amastypromoguest>
+                <class>VS7_AmastyPromoGuest_Block</class>
+            </vs7_amastypromoguest>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <vs7_amastypromoguest>
+                    <file>vs7_amastypromoguest.xml</file>
+                </vs7_amastypromoguest>
+            </updates>
+        </layout>
+    </frontend>
+</config>
