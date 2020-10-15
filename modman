@@ -1,0 +1,5 @@
+app/code/community/VS7/AmastyPromoGuest                             app/code/community/VS7/AmastyPromoGuest
+app/etc/modules/VS7_AmastyPromoGuest.xml                            app/etc/modules/VS7_AmastyPromoGuest.xml
+app/design/frontend/base/default/layout/vs7_amastypromoguest.xml    app/design/frontend/base/default/layout/vs7_amastypromoguest.xml
+app/design/frontend/base/default/template/vs7_amastypromoguest      app/design/frontend/base/default/template/vs7_amastypromoguest
+skin/frontend/base/default/vs7_amastypromoguest                     skin/frontend/base/default/vs7_amastypromoguest
